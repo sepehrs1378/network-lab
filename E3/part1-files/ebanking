@@ -1,0 +1,1234 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/ebanking/scripts/VirtualKeyboard/virtualkeyboard.js" charset="UTF-8">
+
+</script>
+
+
+
+<style>
+    /********* j j ***********/
+body,html{ margin: 0 0 0 0 ; padding: 0 0 0 0 ;    }
+.samane_image{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_samane_text.png); background-position: center;
+    background-repeat: no-repeat; width: 138px; height: 14px; padding-top: 14px; margin-right: 60px; }
+.login_image{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_login.png); background-position: center;
+    background-repeat: no-repeat; width: 470px; height: 12px; padding-top: 10px; }
+.s_image{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_s.png); background-position: center;
+    background-repeat: no-repeat; width: 63px; height: 12px; padding-top: 10px;padding-right: 300px }
+.Left_Right{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_right_left.png); background-position: center;background-repeat: inherit;}
+.border_right_left{width: 1px;background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_border_right_left.png); background-position: center;background-repeat: inherit; }
+.left_border_1{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_left_border_1.png); background-position: center;background-repeat: repeat-y; }
+.speed_image{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_speed.png); background-position: center;
+    background-repeat: no-repeat; width: 161px; height: 12px; padding-top: 10px;padding-right: 780px }
+.Left_Right td{margin: 0 0 0 0 ; padding: 0 0 0 0 ;}
+.bg_right_mainTable{ background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_right_mainTable.png); background-position: top;background-repeat: repeat-y; margin: 0 0 0 0 ;padding: 0 0 0 0;}
+.bg_center_mainTable{ background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_center_mainTable.png); background-position: top;background-repeat: repeat-y; margin: 0 0 0 0 ;padding: 0 0 0 0;}
+.bg_left_mainTable{ background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_left_mainTable.png); background-position: top;background-repeat: repeat-y; margin: 0 0 0 0 ;padding: 0 0 0 0;}
+.bg_top_main_table{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_top_main_table.png); background-position: top;background-repeat: repeat-x; margin: 0 0 0 0 ;padding: 0 0 0 0; height: 15px; width: 928px;}
+.bg_top_right{ background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_top_right.png); background-position: top;background-repeat: repeat-y; margin: 0 0 0 0 ;padding: 0 0 0 0; height: 15px; width: 15px;}
+.bg_top_left{ background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_top_left.png); background-position: top;background-repeat: repeat-y; margin: 0 0 0 0 ;padding: 0 0 0 0; height: 15px; width: 15px;}
+.bg_botoom_table_center{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_botoom_table_center.png); background-position: top;background-repeat: repeat-x; margin: 0 0 0 0 ;padding: 0 0 0 0; height: 9px; width: 928px;}
+.bg_botoom_table_right{ background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_top_right.png); background-position: top;background-repeat: repeat-y; margin: 0 0 0 0 ;padding: 0 0 0 0; height: 15px; width: 15px;}
+.bg_center_table_right{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_center_table_right.png); background-position: center;background-repeat: no-repeat; margin: 0 0 0 0 ;padding: 0 0 0 0; height: 9px; width: 15px;}
+.bg_center_table_left{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_center_table_left.png); background-position: center;background-repeat: no-repeat; margin: 0 0 0 0 ;padding: 0 0 0 0; height: 9px; width: 15px;}
+.bg_top_footer_center{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_top_footer_center.png); background-position: top;background-repeat: repeat-x; margin: 0 0 0 0 ;padding: 0 0 0 0; height: 15px; width: 928px;}
+.bg_top_footer_left{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_top_footer_left.png); background-position: center;background-repeat: no-repeat; margin: 0 0 0 0 ;padding: 0 0 0 0; height: 15px; width: 15px;}
+.bg_top_footer_right{background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_top_footer_right.png); background-position: center;background-repeat: no-repeat; margin: 0 0 0 0 ;padding: 0 0 0 0; height: 15px; width: 15px;}
+
+    /********* j j ***********/
+
+.body {margin: 0 0 0 0 ; padding: 0 0 0 0 ;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+
+    margin-bottom: -16px;;
+    margin-left: auto;
+    border: #a3a3a3 solid 0px;
+    background-image: url(https://cdn.bankmellat.ir/ebanking/images/panel_background.jpg);
+    background-color:#F2F2F2;
+
+}
+
+.header {
+    height: 110px;
+    background-image: url(https://cdn.bankmellat.ir/ebanking/images/HeaderFooterBG.jpg);
+    background-color:#54585B;
+
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    border-top:solid 2px #e71939;
+    padding-top: 17px;
+    background-image: url(https://cdn.bankmellat.ir/ebanking/images/HeaderFooterBG.jpg);
+
+    background-color:#454A4E;
+    vertical-align:top;
+}
+
+.linkBox {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    float: left;
+    border: thin #093;
+}
+
+.loginPanel {
+    width: 750px;
+    height: 417px;
+    border: #a3a3a3 solid 1px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    background-color: #FFF;
+    margin-top: 15px;
+
+}
+
+.loginPanelHeader {
+    width: 100%;
+    height : 23;
+    border-bottom:1.5pt #ffb558 solid;
+    background-color: #eeeeee;
+    padding-top:3;
+    font-size:12pt;
+    text-align : center;
+    color:#696969;
+}
+
+.loginFormBoxes {
+    width: 480 px;
+    height: 333px;
+    background-color: #f3f3f3;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.loginAdvertise {
+    background-color: #fafafa;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.boxHeader {
+    height: 20px;
+    width: 100%;
+    border-bottom: 2px #E31E25 solid;
+    background-color: #f3f3f3;
+    color:#E31E25;
+}
+
+.boxContainer {
+    margin-top: 15px;
+    height: 180px;
+    border: #556644 thin;
+    text-align:center;
+}
+
+.box {
+    position: relative;
+    height: 100%;
+    border: #d9d9d9 solid 1px;
+    /*border-width: 1px;*/
+    margin-right: 15px;
+    /*border-bottom-right-radius: 5px;*/
+    /*border-bottom-left-radius: 5px;*/
+    /*-moz-box-shadow: 2px 2px 2px #ccc;*/
+    /*-webkit-box-shadow: 2px 2px 2px #ccc;*/
+    /*box-shadow: 2px 2px 2px #ccc;*/
+
+    /*filter:progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=135, Strength=4);*/
+}
+
+    /*.rel {*/
+    /*padding: 0;*/
+    /*position: relative;*/
+    /*zoom: 1; *//* IE6 */
+    /*}*/
+
+    /*.testBox {*/
+    /*float: left;*/
+    /*height: 100%;*/
+    /*border: #a3a3a3 solid 1px;*/
+    /*border-width: 1px;*/
+    /*border-bottom-right-radius: 5px;*/
+    /*border-bottom-left-radius: 5px;*/
+    /*box-shadow: 2px 2px 2px #ccc;*/
+    /*filter:progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=135, Strength=4);*/
+
+    /*//behavior: url('/ebanking/styles/ie-css3.htc');*/
+    /*}*/
+
+
+.loginLabel
+{
+    color:#696969;
+    font-weight:bold;
+    font-family:tahoma;
+    font-size:8pt;
+
+}
+
+.loginLabelHint
+{
+    color:#696969;
+    font-weight:normal;
+    font-family:tahoma;
+    font-size:8pt
+}
+
+.boldLabel1
+{
+    color:#696969;
+    font-weight:bold;
+    font-family:tahoma;
+    font-size:9pt;
+}
+
+.boldLabel2
+{
+    color:#fe111a;
+    font-weight:normal;
+    font-family:tahoma;
+    font-size:8pt;
+}
+.boldLabel2 >a
+{
+    color:#fe111a; background-color: #00aa00;}
+
+.boxContent {
+    height: 155px;
+    background-color: #fafafa;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color:#696969;
+    font-family:tahoma;
+    font-size:9pt;
+
+}
+
+
+</style>
+
+
+<html>
+
+
+<head>
+  <title>بانکداري اينترنتي بانک ملت </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="content-language" content="fa">
+  <link rel="stylesheet"         type="text/css" href="/ebanking/styles/ebanking_generic.css"/>
+  <link rel="shortcut icon"      href="/ebanking/images/favicon.ico">
+  <script language="javascript"  type="text/javascript" src="/ebanking/scripts/expand.js"></script>
+  <script language="javascript"  type="text/javascript" src="/ebanking/scripts/ebanking_generic.js"></script>
+  <script type="text/javascript" src="/ebanking/scripts/jquery/jquery-1.11.3.js"></script>
+  <link rel="stylesheet"         type="text/css" href="/ebanking/scripts/jquery/jquery-ui-1.11.4/jquery-ui.css" media="screen"/>
+</head>
+
+
+
+
+
+
+
+
+<script language="javascript" type="text/javascript" src="/ebanking/dwr/interface/DWRServices.js"></script>
+<script language="javascript" type="text/javascript" src="/ebanking/dwr/engine.js"></script>
+<script language="javascript" type="text/javascript" src="/ebanking/dwr/util.js"></script>
+<script type="text/javascript" language="JavaScript">
+    function changeLocale() {
+        var intCustId = dwr.util.getValue("intCustId");
+        var intEbId = dwr.util.getValue("intEbId");
+
+        dwr.engine.beginBatch();
+        DWRServices.changeLocale('', function(data) {
+            handleServerLocaleResult(data);
+        });
+
+        dwr.engine.endBatch({errorHandler:function(errorString, exception) {
+            if(errorString == 'The specified call count is not a number: null'){
+                alert('لطفا دوباره وارد شويد.');
+            }else{
+                alert('مشتري محترم , در حال حاضر سرويس مورد نظر فعال نمي باشد . (1)');
+            }
+        }
+        });
+    }
+
+    dwr.engine.setErrorHandler(errorHandlerFn);//global exception
+    function errorHandlerFn(message, exception) {
+        alert('مشتري محترم , در حال حاضر سرويس مورد نظر فعال نمي باشد . (1)');
+    }
+    dwr.engine.setTextHtmlHandler(//session timeout
+            function() {
+                alert('لطفا دوباره وارد شويد.');}
+            );
+    function handleServerLocaleResult(data) {
+            getElement('localeButton').value = data ;
+    }
+
+    function updateFormsElements(csrfIdValue){
+        var forms = document.forms;
+        for(i= 0 ;i<forms.length ; i++){
+            if(forms[i].clientCsrfId != "")
+                forms[i].clientCsrfId.value  = csrfIdValue;
+        }
+    }
+</script>
+<input id="dwrErrorMessage" type="hidden"/>
+
+
+<link rel="stylesheet" type="text/css" href="/ebanking/styles/virtualKeyboard.css">
+
+<script type="text/javascript" language="javascript">
+    function checkTopLocation() {
+        try
+        {
+            if (self != top) {
+                top.location = self.location;
+            }
+        }catch(e){}
+    }
+</script>
+
+<body style="border: #989898; margin: 0 0 0 0 ; padding: 0 0 0 0 ; min-width: 1000px; " onload="checkTopLocation()">
+
+<center>
+<div id="body" class="body"   align="center">
+
+<div class="header" align="center" style="width:100%; ">
+    <div id="header" class="header" align="center" style="width:1000px">
+        <div style="width:325px;position:relative;float: left;border:0px;">
+            <div style="position:relative; padding-left: 2px; padding-right: 2px; float:left;margin-right: 2px;margin-left: 10px;margin-top:10px; color:#FFF;background-color: #404040; height: 19px; border:2px solid #5F6366;margin-top:-5px; padding-top: 5px; padding-bottom: 3px;">
+                
+                
+                <a href="javascript:changeTab(5);" style=" padding-top:10px;color:white;font-family:tahoma;font-size:9pt" onblur="window.status='';return true"
+                   onmouseover="window.status='change locale';return true"
+                   onfocus="window.status='';return true" onmouseout="window.status='';return true"
+                        ><span style="margin-top: 10px;">
+                        EN</span></a>
+                
+                
+            </div>
+            
+            <div style="position:relative; float:left;margin-right: 10px;margin-left: 1px;background-color: #404040;border:2px solid #5F6366;margin-top:-3px;
+            ">
+                <div style="position:relative; float:left;margin-right: 10px;margin-left: 5px;background-color: #404040 ;   height: 25px;">
+
+                    <a href="http://www.bankmellat.ir" style="color:white;font-family:tahoma;font-size:9pt" target="_blank" onblur="window.status='';return true"
+                       onmouseover="window.status='وب سایت بانک';return true"
+                       onfocus="window.status='';return true" onmouseout="window.status='';return true"
+                            >وب سایت بانک</a>
+                    &nbsp;<font color="white">|</font>&nbsp;
+                    <a href="http://www.bankmellat.ir/contactus.aspx" style="color:white;font-family:tahoma;font-size:9pt" target="_blank" onblur="window.status='';return true"
+                       onmouseover="window.status='پشتيبانى';return true"
+                       onfocus="window.status='';return true" onmouseout="window.status='';return true"
+                            >پشتيبانى</a>
+                    &nbsp;<font color="white">|</font>&nbsp;
+                    <a href="http://bankmellat.ir/internet_banking.aspx" style="color:white;font-family:tahoma;font-size:9pt" target="_blank" onblur="window.status='';return true"
+                       onmouseover="window.status='راهنما';return true"
+                       onfocus="window.status='';return true"
+                       onmouseout="window.status='';return true" class="headerMargine">راهنما</a>
+
+                </div>
+            </div>
+            
+        </div>
+        <div style="width:300px;position:relative;float: left;margin-left:auto; margin-right:auto;text-align:left;border:0px;">
+            
+            <div  style="background-image:url(https://cdn.bankmellat.ir/ebanking/images/bg_logo.png); background-position: center;
+                    background-repeat: no-repeat; width: 313px; height: 110px;">  </div>
+        </div>
+        <div dir="rtl" style=" text-align:center;position:relative;float: right; border:2px; text-align:left;color:#FFF;background-color: #404040 ; border-style: solid ;  border-color:#5F6366; margin-top:-3px; height: 25px; ">
+             <table align="center" width="130" direction="ltr">  <tr>   <td nowrap  class="whiteFont"  align="center">جمعه</td>   <td nowrap  class="whiteFont"  align="center">&#1778;&#1779;</td>   <td nowrap  class="whiteFont"  align="center">مهر</td>   <td nowrap  class="whiteFont"  align="center">&#1777;&#1779;&#1785;&#1781;</td>  </tr> </table>
+
+        </div>
+    </div>
+</div>
+<div style=" min-width:1000px;background-color: #e7e7e7;  height: 39px;  " >
+    
+
+        
+            <div class="samane_image"></div>
+        
+
+
+        
+
+
+</div>
+
+<div style=" min-width:1000px;background-color:#dadada;height:487px; background-image: url(https://cdn.bankmellat.ir/ebanking/images/bg_canterPage_top_left.png); background-repeat: repeat-x;background-position: top;" >
+
+<table  align="center" cellspacing="0" cellpadding="0"    style="margin: 0 0 0 0; min-width: 1000px; background-color: #dadada">
+<tr  align="center">
+<td  valign="top"  rowspan="3" style="background-color: #dadada;  ">
+    <div style="height: 6px; background-image: url(https://cdn.bankmellat.ir/ebanking/images/bg_canterPage_top_left.png); background-repeat:repeat; "></div>
+
+</td>
+<td valign="top" rowspan="3" width="6px" style="background-image: url(https://cdn.bankmellat.ir/ebanking/images/bg_main_right02.png); background-repeat: repeat-y; width: 6px;">
+    <div style="height: 6px; background-image: url(https://cdn.bankmellat.ir/ebanking/images/bg_main_left.png); background-repeat: no-repeat; width: 6px;"></div>
+</td>
+<td width="598px">
+
+
+
+<table cellpadding="0" cellspacing="0" class="Left_Right"  width="958" align="center">
+
+<tr>
+
+    <td >
+        <table cellspacing="0" cellpadding="0">
+            <tr>
+                <td class=" bg_top_left">
+
+                </td>
+                <td class=" bg_top_main_table">
+
+                </td>
+                <td class=" bg_top_left">
+
+                </td>
+            </tr>
+        </table>
+
+    </td>
+
+
+</tr>
+
+
+<tr  class="Left_Right"  >
+
+
+
+
+
+
+
+<td width="958px;" style="background-color:#f3f3f3;">
+
+<div id="middleSection" style="height:auto; margin: 0 0 0 0 ;padding: 0 0 0 0;">
+<table  cellspacing="0px"  width="958px"   style="height:365px; max-width: 958px;" dir="rtl"  >
+<tr >
+<td  width="15px" height="100%" class="bg_right_mainTable" >
+</td>
+<td width="500px" height="100%" >
+<div id="loginPanel" class="box" style="width:498px;height: 365px; margin-right: 0px; border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;">
+<table  cellpadding="0" cellspacing="0"  border="0" style="width:498px; background-color: #f3f3f3;" dir="ltr">
+<tr>
+    <td colspan="2" style="margin: 0 0 0 0 ; padding: 0 0 0 0;" >
+        <div class="loginPanelHeader boldLabel1" dir="rtl" style="text-align:center;height: 25;" >
+            
+                <div class="login_image">  </div>
+            
+
+
+
+            
+        </div>
+    </td>
+</tr>
+<tr>
+<td align="center" valign="top" >
+<div id="loginForm" class="loginFormBoxes" style="background-color: #f3f3f3;border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px; ">
+<table cellpadding="0" cellspacing="0" border="0" width="340"  >
+<tr><td align="center" style="padding-top:5;height:30px" >
+
+    
+</td> </tr>
+<tr><td>
+    <form name="loginForm" method="post" action="/ebanking/hLogin.bm" onsubmit="return validateLoginForm()"><div><input type="hidden" name="org.apache.struts.taglib.html.TOKEN" value="bf747f2a8d691318ac507e18b4461007"></div>
+        <input type="submit" style="display:none;width:0;">
+        <table align="center" cellpadding="0" style="width:450px;" cellspacing="0" dir="rtl">
+
+            <tr><td colspan="2" height="13"></td></tr>
+            <tr><td dir="ltr"
+                    align="right" class="text-label">
+                <span class="asterisk">*</span>
+                <span class="loginLabel"  >شناسه مشترى</span>
+            </td>
+                <td>
+                    <div id='dv_userId' style="border:1px solid silver;background-color:#E0E0E0;width:230px;height:25px;overflow-y:hidden;border-radius: 5px;">
+                        <table cellpadding=0 cellspacing=0 border=0 >
+                            <tr>
+                                <td style="padding-top:5px;padding-right:4px" valign="top">
+                                    <img src="https://cdn.bankmellat.ir/ebanking/images/bg_loginUsrIcn.png" height="13" width="13" border="0">
+                                </td>
+                                <td devElmId="dv_userId" flagElmId="useVirtualInUserName">&nbsp;
+                                    <input onfocus="hilightFocus(this,'dv_userId')" type="text" name="userId" maxlength="20"
+                                           style="text-align:left;border:1px solid #E0E0E0;width:170px;background-color:#E0E0E0" tabindex="1"
+                                           value="" autocomplete="off" class="keyboardInput"/>&nbsp;
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+
+            <tr><td colspan="2" height="13"></td></tr>
+            <tr><td dir="ltr"
+                    align="right" class="text-label">
+                <span class="asterisk">*</span>
+                <span class="loginLabel">كلمه عبور</span>
+            </td>
+                <td >
+                    <div id="dv_password" style="border:1px solid silver;background-color:#E0E0E0;width:230px;height:25px;overflow-y:hidden;border-radius: 5px;">
+                        <table cellpadding=0 cellspacing=0 border=0 >
+                            <tr>
+                                <td style="padding-top:5px ; padding-right: 5px;-paddingright:4px" valign="top"  >
+                                    <img src="https://cdn.bankmellat.ir/ebanking/images/bg_loginPwdIcn.png" height="14" width="10" border="0">
+                                </td>
+                                <td valign="top" devElmId="dv_password" flagElmId="useVirtualInPwd" >&nbsp;
+                                    <input type="password" name="password" maxlength="15" tabindex="2" value="" onfocus="hilightFocus(this,'dv_password')" id="test_pwd1" style="text-align:left;border:1px solid #E0E0E0;width:173px;background-color:#E0E0E0" class="keyboardInput">
+                                    &nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+
+            <tr><td colspan="2" height="13"></td></tr>
+            <tr><td dir="ltr"
+                    align="right" class="text-label">
+                <span class="loginLabel" >تصویرامنیتی</span>
+            </td>
+                <td valign="top" align="center">
+                    <div dir='rtl'><table dir='rtl' >    <tr><td><img id='ebankingCaptchaImg' border='0' src="PassImageServlet/89B56C9915A49061B2D79738EC6F39B5C722A859D9EDC95AEAE181BA0112F09A?rnd=0.5793131208545648" border="0"/></td>    <td><a href="#" ><img src='https://cdn.bankmellat.ir/ebanking/images/reloadCaptcha.gif' onclick='reloadCaptcha()' title='reload' border='0' ></a><input type="hidden" name="textPattern_enc" value="89B56C9915A49061B2D79738EC6F39B5C722A859D9EDC95AEAE181BA0112F09A"> </td></tr></table></div><script language='javascript'> function reloadCaptcha() { document.all['ebankingCaptchaImg'].src = 'PassImageServlet/89B56C9915A49061B2D79738EC6F39B5C722A859D9EDC95AEAE181BA0112F09A'+'?rnd=' + Math.random();}</script>
+                </td>
+            </tr>
+
+            <tr><td colspan="2" height="13"></td></tr>
+            <tr><td dir="ltr"
+                    align="right" class="text-label">
+                <span class="asterisk">*</span>
+                <span class="loginLabelHint" >عبارت امنیتی فوق را بازنویسی نمائید</span>
+            </td>
+                <td colspan="2">
+                    <div id='dv_securityCode' style="border:1px solid silver;background-color:#E0E0E0;width:230px;height:25px;overflow-y:hidden;border-radius: 5px;">
+                        <table cellpadding=0 cellspacing=0 border=0>
+                            <tr>
+                                <td style="padding-top:6px;padding-right:4px" valign="top" >
+                                    <img src="https://cdn.bankmellat.ir/ebanking/images/bg_securityCode.png" height="13" width="13" border="0">
+                                </td>
+                                <td valign="top">&nbsp;
+                                    <input type="text" name="textPattern" maxlength="6" tabindex="3" value="" onkeypress="return alertEnglishOnKeyPress(event);" onfocus="hilightFocus(this,'dv_securityCode')" style="font-family:tahoma;font-size:10pt;font-weight:bold;text-align:left;border:1px solid #E0E0E0;width:195px;background-color:#E0E0E0">
+                                    &nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+
+            
+            <tr><td colspan="2" height="13"></td></tr>
+            <tr><td dir="ltr"
+                    align="right" class="text-label">
+                <table cellpadding="0" cellspacing="0" width="100%" dir="rtl">
+                    <tr>
+                        <td class="loginLabel" >یکبار رمز</td>
+                    </tr>
+                    <tr>
+                        <td class="loginLabelHint">(براي دارندگان يکبار رمز)</td>
+                    </tr>
+                </table>
+            </td>
+                <td>
+                    <div id='dv_otpPass' style="border:1px solid silver;background-color:#E0E0E0;width:230px;height:25px;border-radius: 5px;">
+                        <table cellpadding=0 cellspacing=0 border=0>
+                            <tr>
+                                <td  style="padding-top:5px;padding-right:4px" valign="top">
+                                    <img src="https://cdn.bankmellat.ir/ebanking/images/bg_otpIcon.png" height="15" width="12" border="0">
+                                </td>
+                                <td>&nbsp;
+                                    <input type="text" name="otpPass" onkeypress="return numbericOnKeypress(event);"
+                                           title="مشتری گرامی جهت تولید رمز از یکباررمز فیزیکی /همراه استفاده نمایید"
+                                           maxlength="7"
+                                           dir="ltr"
+                                           tabindex="3"
+                                           style="border:1px solid #E0E0E0;width:161px;background-color:#E0E0E0;"
+                                           onfocus="hilightFocus(this,'dv_otpPass')"
+                                           value="" autocomplete="off"/>
+                                </td>
+                                <td  style="padding-top:4px;padding-right:2px" valign="top">
+                                    
+                                        
+
+                                        
+                                    <a class="boldLabel2" style="padding:0; color:#fe111a;"
+                                       href="otpHelp.bm?method=showOTPHelp"
+                                       target="_blank">
+                                        راهنما
+                                    </a>                                                        
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td valign='middle'>
+                    <div id='otpSmsBtn' style="height:22;background-color:#EEEEEE;border:solid 1px gray;;border-radius: 5px;width:100px;overflow:hidden;cursor:pointer" onclick="sendOtpSms_click();" title="ارسال پیامک" >
+                        <table cellpadding="0" cellspacing="2" style="height:21;">
+                            <tr>
+                                <td width="22" valign='middle' align='center' style='background-color:gray;color:white'>--</td>
+                                <td width="120" valign='top' class="text-label">&nbsp;ارسال پیامک</td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                    
+                    
+                    
+            </tr>
+            
+
+            <tr><td colspan="2" height="13"></td></tr>
+            <tr>
+                <td></td>
+                <td valign=bottom align="center" >
+                    <input type="image" src="https://cdn.bankmellat.ir/ebanking/images/bg_singinBtn_fa.png" title="" tabindex="3" />
+                </td>
+            </tr>
+        </table>
+
+        <input type="hidden" name="tab" value="2"/>
+        <input type="hidden" name="method" value="login"/>
+        <input type="hidden" name="useVirtualInUserName" value="0"/>
+        <input type="hidden" name="useVirtualInPwd" value="0"/>
+
+    </form>
+</td> </tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td width="9px" height="100%" class="bg_center_mainTable" >
+</td>
+<td  width="419px" style="padding: 0 0 0 0 ; margin: 0 0 0 0;" >
+
+    <div id="securityBox" class="box" style="width:417px;height:365px; margin-right: 0px; border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;">
+        <div class="loginPanelHeader boldLabel1" dir="rtl" style=" height: 25px; text-align:center;color:#E31E25;">
+            
+                <div class="s_image" > </div>
+            
+
+
+
+
+            
+        </div>
+        <div dir="rtl" style="  width:100%;text-align:right;height:334px;padding-right:0px;background-color:#f3f3f3">
+            <table cellspacing="0" >
+                <tr>
+                    
+                    
+                    
+                    
+                    <td>
+                        
+                        <div id="securityContent" style="height:320px;width:390px;overflow:hidden;padding-right: 5px ;padding-left: 5px; ">
+                            <br>
+                                
+                                <table style=" line-height: 1.9; margin-left:5px;padding-top:5" cellpadding="2" cellspacing="1">
+                                    <tr style="padding-top: 50px;" ><td width="15" valign="top"><img src="https://cdn.bankmellat.ir/ebanking/images/bg_bullet.png" border="0" alt=""></td>
+                                        <td width="100%" style="padding-bottom:12px;font-size:8pt;text-align:justify; ">از صحت آدرس URL وارد شده در مرورگر وب خود اطمینان حاصل نمایید.</td></tr>
+                                    <tr ><td width="15" valign="top"><img src="https://cdn.bankmellat.ir/ebanking/images/bg_bullet.png" border="0" alt=""></td>
+                                        <td width="100%" style="padding-bottom:12px;font-size:8pt;text-align:justify;">جهت کاهش احتمال سوء استفاده از رمز عبور، از صفحه کلید مجازی استفاده نمایید.</td></tr>
+                                    <tr ><td width="15" valign="top"><img src="https://cdn.bankmellat.ir/ebanking/images/bg_bullet.png" border="0" alt=""></td>
+                                        <td width="100%" style="padding-bottom:12px;font-size:8pt;text-align:justify;">به منظور بالا بردن امنیت ورود به سامانه بانکداری اینترنتی، از یک بار رمز (OTP) استفاده نمایید.</td></tr>
+                                    <tr ><td width="15" valign="top"><img src="https://cdn.bankmellat.ir/ebanking/images/bg_bullet.png" border="0" alt=""></td>
+                                        <td width="100%" style="padding-bottom:12px;font-size:8pt;text-align:justify;">رمز عبور خود را در فواصل زمانی کوتاه تغییر داده و هرگز آن را به سایرین ندهید.</td></tr>
+                                    <tr ><td width="15" valign="top"><img src="https://cdn.bankmellat.ir/ebanking/images/bg_bullet.png" border="0" alt=""></td>
+                                        <td width="100%" style="padding-bottom:12px;font-size:8pt;text-align:justify;">همواره از رايانه‌ امن مجهز به ضدویروس به روز شده و دارای آخرین وصله‌های امنیتی استفاده نمایید.</td></tr>
+                                    <tr ><td width="15" valign="top"><img src="https://cdn.bankmellat.ir/ebanking/images/bg_bullet.png" border="0" alt=""></td>
+                                        <td width="100%" style="padding-bottom:12px;font-size:8pt;text-align:justify; ">بانک هرگز اطلاعات محرمانه شما را از طریق ایمیل یا پیامک درخواست نمی کند. در صورت رخداد این مورد، ضمن عدم پاسخگویی به چنین درخواستهایی مراتب را سریعاً به بانک اطلاع دهید.
+                                            
+                                            <a href="http://www.bankmellat.ir/Internet_banking_system_security_consideretians.aspx" target="_blank" style="color:#FE8745">ادامه ...</a>
+                                            
+                                        </td></tr>
+                                </table>
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</td>
+<td width="15px" height="100%" class="bg_left_mainTable"  >
+</td>
+</tr>
+</table>
+</div>
+
+
+
+<table cellspacing="0" align="center" style="background-color: #f1f1f1"  cellpadding="0">
+    <tr>
+
+        <td class=" bg_center_table_left">
+
+        </td>
+        <td class=" bg_botoom_table_center">
+
+        </td>
+        <td class=" bg_center_table_right">
+
+        </td>
+    </tr>
+</table>
+
+
+<div id="downSection" style="text-align:center;width:958px">
+    <table cellpadding="0" cellspacing="0" border="0" style="width:958px">
+        <tr>
+            <td width="15px" height="100%" class="bg_left_mainTable">&nbsp;</td>
+            <td style="padding: 0 0 0 0; margin: 0 0 0 0 ;">
+                <div class="box" style="width:928px;height:80px; margin-right: 0px;background-color: #f3f3f3 ">
+                    <div class="loginPanelHeader boldLabel1" dir="rtl" style="text-align:center;margin-bottom:3px; background-color: #efefef">
+                        
+                            <div class="speed_image">
+                            </div>
+                        
+
+
+                        
+                    </div>
+                    <div dir="rtl" style="text-align:right;">
+                        <table cellpadding="0" cellspacing="0" style="width:100%;" dir="rtl">
+                            <tr>
+                                <td width="8px" valign="top">&nbsp;</td>
+                                <td width="7px" valign="middle">
+                                    <img src="https://cdn.bankmellat.ir/ebanking/images/quick_bullet_fa.gif" border="0">
+                                </td>
+                                <td>
+                                    <a class="boldLabel2" style="padding:0;" href="https://eshop.bankmellat.ir/eloan/index.action" target="_blank" title="لطفا کلیک نمائید">پرداخت اينترنتي اقساط&nbsp;با استفاده از کارت های شتابی</a>
+                                </td>
+                                <td width="7px" valign="middle">
+                                    <img src="https://cdn.bankmellat.ir/ebanking/images/quick_bullet_fa.gif" border="0">
+                                </td>
+                                <td>
+                                    <a class="boldLabel2" style="padding:0;" href="https://eshop.bankmellat.ir/firstCharges/index.action" target="_blank" title="لطفا کلیک نمائید">خرید اینترنتی شارژ&nbsp;همراه با هدیه</a>
+                                </td>
+                                <td width="7px" valign="middle">
+                                    <img src="https://cdn.bankmellat.ir/ebanking/images/quick_bullet_fa.gif" border="0">
+                                </td>
+                                <td>
+                                    <a class="boldLabel2" style="padding:0;" href="https://bill.bpm.bankmellat.ir/bpgwchannel/" target="_blank" title="لطفا کلیک نمائید">پرداخت اینترنتی قبوض&nbsp;با استفاده از کارت های شتابی</a>
+                                </td>
+                                <td width="7px" valign="middle">
+                                    <img src="https://cdn.bankmellat.ir/ebanking/images/quick_bullet_fa.gif" border="0">
+                                </td>
+                                <td>
+                                    <a class="boldLabel2" style="padding:0;" href="produceShebaCode.bm?method=forwardGenerateShebaCodeInput" target="_blank" title="لطفا کلیک نمائید">تولید شبا&nbsp;حساب های متمرکز بانک ملت</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+            <td width="15px" height="100%" class="bg_right_mainTable"  >
+            </td>
+        </tr>
+        <tr>
+
+
+
+            <td class=" bg_top_footer_right">
+
+            </td>
+            <td class=" bg_top_footer_center">
+
+            </td>
+            <td class=" bg_top_footer_left">
+
+            </td>
+
+
+
+
+
+        </tr>
+    </table>
+</div>
+</td>
+
+
+
+
+</tr>
+
+</table>
+</td>
+<td valign="top" rowspan="3" width="6px" style="background-image: url(https://cdn.bankmellat.ir/ebanking/images/bg_main_right01.png); background-repeat: repeat-y; width: 6px;">
+    <div style="height: 6px; background-image: url(https://cdn.bankmellat.ir/ebanking/images/bg_main_right.png); background-repeat: no-repeat; width: 6px;"></div>
+</td>
+<td  valign="top"  rowspan="3" style="background-color: #dadada;  ">
+    <div style="height: 6px; background-image: url(https://cdn.bankmellat.ir/ebanking/images/bg_canterPage_top_left.png); background-repeat:repeat; "></div>
+
+</td>
+</tr>
+</table>
+
+
+</div>
+
+<div id="footer" class="footer" style="text-align:center;" >
+    
+    <a class="boldLabel1" style="color:white;" href="javascript:showHelp('securityAgreement')">محرمانگی اطلاعات شخصی مشتریان</a>
+    &nbsp;<font color="white">|</font>&nbsp;
+    <a class="boldLabel1" style="color:white;" target="_blank" href="http://www.cyberpolice.ir">سايت پليس فتا</a>
+    &nbsp;<font color="white">|</font>&nbsp;
+    <a class="boldLabel1" style="color:white;" target="_blank" href="http://www.bankmellat.ir">وب سایت بانک</a>
+
+    
+</div>
+</div>
+</center>
+
+</body>
+
+<script type="text/javascript" language="javascript">
+    var otpSmsCounterStarted = false;
+    var otpSmsSecondsTimer = 59;
+    var otpSmsTimerHandler = null;
+    function sendOtpSms_click()
+    {
+        if(validateLoginForm()){
+            if (!otpSmsCounterStarted)
+                sendOtpSms_Handler();
+            else
+                alert("کاربر گرامی ، با سپری شدن زمان اعلام شده امکان ارسال مجدد پیامک یکبار رمز وجود دارد. لطفا منتظر بمانید");
+        }
+    }
+
+    function sendOtpSms_Handler()
+    {
+        var otpSmsElm = document.all['otpSmsBtn'];
+        var counterTd = otpSmsElm.children[0].rows[0].cells[0];
+        if (otpSmsCounterStarted)
+        {
+            if (otpSmsSecondsTimer == 0 || otpSmsSecondsTimer < 0)
+            {
+                counterTd.innerHTML = '--';
+                otpSmsSecondsTimer = 59;
+                otpSmsCounterStarted = false;
+                clearTimeout(otpSmsTimerHandler);
+                return;
+            }
+            else
+            {
+                otpSmsSecondsTimer -= 1;
+            }
+            if (otpSmsSecondsTimer >= 10)
+                counterTd.innerHTML = otpSmsSecondsTimer;
+            else
+                counterTd.innerHTML = '0' + otpSmsSecondsTimer;
+        }
+        otpSmsTimerHandler = setTimeout('sendOtpSms_Handler()', 1000);
+        if (otpSmsCounterStarted)
+            return;
+
+        otpSmsSecondsTimer = 59;
+        otpSmsCounterStarted = true;
+        counterTd.innerHTML = otpSmsSecondsTimer;
+
+        dwr.engine.beginBatch();
+        var csrfId = document.changeTabX.clientCsrfId.value;
+        var userId = document.loginForm.userId.value;
+        var password = document.loginForm.password.value;
+        var captchaValEnc = document.all['textPattern_enc'].value;
+        var captchaValue =  document.loginForm.textPattern.value;
+        DWRServices.sendSmsOtpCodeForLogin(csrfId, userId, password, captchaValue, captchaValEnc, function(dwrResult) {
+//           updateFormsElements(dwrResult.callbackcsrfId);
+            if(dwrResult.success) {
+
+                reloadCaptcha();
+                document.loginForm.textPattern.value = '';
+
+                if(dwrResult.data==60){
+                    alert("پیامک یکبار رمز ارسال گردید");
+                }else {
+                    otpSmsSecondsTimer = dwrResult.data;
+                    alert("کاربر گرامی ، با سپری شدن زمان اعلام شده امکان ارسال مجدد پیامک یکبار رمز وجود دارد. لطفا منتظر بمانید");
+                }
+
+            }
+            else {
+                reloadCaptcha();
+                document.loginForm.textPattern.value = '';
+                otpSmsSecondsTimer = 0;
+                alert(dwrResult.errorText);
+            }
+        });
+
+        dwr.engine.endBatch({errorHandler:function(errorString, exception) {
+            if (errorString == 'The specified call count is not a number: null') {
+                reloadCaptcha();
+                document.loginForm.textPattern.value = '';
+                otpSmsSecondsTimer = 0;
+                alert("لطفا دوباره وارد شويد.");
+            } else {
+                reloadCaptcha();
+                document.loginForm.textPattern.value = '';
+                otpSmsSecondsTimer = 0;
+                alert("مشتري محترم , در حال حاضر سرويس مورد نظر فعال نمي باشد . (1)");
+            }
+            return false;
+        }
+        });
+
+        dwr.engine.setErrorHandler(errorHandlerFn);
+        function errorHandlerFn(message, exception) {
+            reloadCaptcha();
+            document.loginForm.textPattern.value = '';
+            otpSmsSecondsTimer = 0;
+            alert("مشتري محترم , در حال حاضر سرويس مورد نظر فعال نمي باشد . (1)");
+            return false;
+        }
+
+        dwr.engine.setTextHtmlHandler(
+                function() {
+                    reloadCaptcha();
+                    document.loginForm.textPattern.value = '';
+                    otpSmsSecondsTimer = 0;
+                    alert("لطفا دوباره وارد شويد.");
+                    return false;
+                }
+        );
+
+    }
+
+</script>
+
+
+<script type="text/javascript" language="javascript">
+    function showNews(id) {
+        document.newsFormX.newsId.value = id;
+        document.newsFormX.method.value = "detail";
+        document.newsFormX.submit();
+    }
+
+    function allNews() {
+        document.newsFormX.newsId.value = "";
+        document.newsFormX.method.value = "list";
+        document.newsFormX.submit();
+    }
+
+    function changeTab(tab) {
+        document.changeTabX.tab.value = tab;
+        document.changeTabX.submit();
+    }
+
+    function showHelp(topic) {
+        document.showHelpFormX.target = "_blank";
+        document.showHelpFormX.url.value = "contextHelp";
+        document.showHelpFormX.topic.value = topic;
+        document.showHelpFormX.submit();
+    }
+
+
+</script>
+
+<form action="news.bm" name="newsFormX" method="post">
+    
+
+
+
+
+
+<input type="hidden" name="intCustId" value="0">
+<input type="hidden" name="intEbId" value="0">
+
+<input type="hidden" name="clientCsrfId" value="">
+
+
+    <input type="hidden" name="tab" value="2"/>
+    <input type="hidden" name="method" value=""/>
+    <input type="hidden" name="newsId" value=""/>
+</form>
+
+<form action="changeTab.bm" name="changeTabX" method="post">
+    
+
+
+
+
+
+<input type="hidden" name="intCustId" value="0">
+<input type="hidden" name="intEbId" value="0">
+
+<input type="hidden" name="clientCsrfId" value="">
+
+
+    <input type="hidden" name="tab" value="2"/>
+</form>
+
+<form action="securityAgreement.bm" name="showHelpFormX" method="post">
+    
+
+
+
+
+
+<input type="hidden" name="intCustId" value="0">
+<input type="hidden" name="intEbId" value="0">
+
+<input type="hidden" name="clientCsrfId" value="">
+
+
+    <input type="hidden" name="tab" value="1"/>
+    <input type="hidden" name="url" value=""/>
+    <input type="hidden" name="topic" value=""/>
+</form>
+
+
+<script type="text/javascript" language="javascript">
+this.VKI_imageURI = "https://cdn.bankmellat.ir/ebanking/images/bg_login_keyboard.png";
+
+function alertEnglishOnKeyPress(e) {
+
+    var isEnglish = isEnglishNumberKeysPressed(e,true,true);
+    if (!isEnglish) {
+        alert("لطفاً انگليسي تايپ کنيد");
+    }
+    return isEnglish;
+}
+
+function validateLoginForm() {
+
+    var userId = document.loginForm.userId.value;
+    var password = document.loginForm.password.value;
+
+    var failedLoginCount = "";
+
+    if (userId == "") {
+        alert("شناسه مشترى وارد نشده است.");
+        document.loginForm.userId.focus();
+        return false;
+    }
+
+    if (password == "") {
+        alert("كلمه عبور وارد نشده است.");
+        document.loginForm.password.focus();
+        return false;
+    }
+
+    if (userId.length > 20 || (userId.length > 0 && userId.length < 3)) {
+        alert("شناسه مشترى نامعتبر است.");
+        document.loginForm.userId.focus();
+        return false;
+    }
+
+    if ((password.length < 8) || (password.length > 15)) {
+        alert("كلمه عبور حداقل هشت رقم و حداكثر پانزده رقم است.");
+        document.loginForm.password.focus();
+        return false;
+    }
+
+    if (document.loginForm.textPattern.value == "") {
+        alert("عبارت امنيتي وارد نشده است.");
+        document.loginForm.textPattern.focus();
+        return false;
+    }
+
+    if (document.loginForm.textPattern.value.length != 6) {
+        alert("عبارت امنيتي صحیح نمی باشد.");
+        document.loginForm.textPattern.focus();
+        return false;
+    }
+
+    disableFormSubmit(document.loginForm);
+    return true;
+}
+
+function disableFormSubmit(form) {
+
+    if (form == undefined || form == null) {
+        return true;
+    }
+
+    var submit1 = form.elements["submit1"];
+    var cancel = form.elements["cancel"];
+    var edit = form.elements["edit"];
+
+    if (submit1 != null && submit1.type != "hidden" && !submit1.disabled) {
+        submit1.disabled = true;
+        submit1.title = "...لطفا صبر كنيد";
+    }
+
+    if (cancel != null && cancel.type != "hidden" && !cancel.disabled) {
+        cancel.disabled = true;
+    }
+
+    if (edit != null && edit.type != "hidden" && !edit.disabled) {
+        edit.disabled = true;
+    }
+    return true;
+}
+
+var lastFocusElm = null;
+var lastFocusElmDv = null;
+function hilightFocus(elm , elmDvId)
+{
+    if (lastFocusElm != null)
+    {
+        lastFocusElm.style.backgroundColor = "#E0E0E0";
+        lastFocusElm.style.border = "solid 1px #E0E0E0";
+
+        lastFocusElmDv.style.backgroundColor = "#E0E0E0";
+    }
+
+    elm.style.backgroundColor = "white";
+    elm.style.border = "solid 1px white";
+
+    document.getElementById(elmDvId).style.backgroundColor = "white";
+
+    lastFocusElm = elm;
+    lastFocusElmDv = document.getElementById(elmDvId);
+
+}
+
+
+var focusControl = document.forms["loginForm"].elements["userId"];
+if (focusControl != null) {
+    if (focusControl.type != "hidden" && !focusControl.disabled) {
+        focusControl.focus();
+    }
+}
+
+function quickLinkOverStyle(dvElm , clean)
+{
+    if (clean)
+    {
+
+        dvElm.children[0].rows[0].cells[1].children[0].rows[0].cells[0].style.backgroundColor = "#EEEEEE";
+        dvElm.children[0].rows[0].cells[1].children[0].rows[0].cells[0].style.color = "gray";
+
+//            dvElm.style.border = 'solid 1px white';
+//            dvElm.style.backgroundColor= '';
+    }
+    else
+    {
+
+        dvElm.children[0].rows[0].cells[1].children[0].rows[0].cells[0].style.backgroundColor = "#FED559";
+        dvElm.children[0].rows[0].cells[1].children[0].rows[0].cells[0].style.color = "black";
+
+//            dvElm.style.border = 'solid 1px #CA9C9C';
+//            dvElm.style.backgroundColor= '#F7CF85';
+    }
+}
+
+function securityLinkOverStyle(trElm , clean)
+{
+    if (clean)
+    {
+        trElm.cells[1].style.backgroundColor= '';
+    }
+    else
+    {
+        trElm.cells[1].style.backgroundColor= '#F2DADA';
+    }
+}
+
+var autoScrollingTimerId = null;
+var lastDecInc = 0;
+function autoScrollingContent(contentId , scrollerId , evt)
+{
+
+    var validEvent = ((window.event)?(event):(evt));
+    var target = validEvent.target || validEvent.srcElement;
+    if (target.tagName == "IMG") {clearAutoScrollingContent();return true};
+
+    var tdScrollElm = document.all[scrollerId];
+    var mouseYPos = validEvent.clientY - tdScrollElm.getClientRects()[0].top;// - cntrElm.getClientRects()[0].top);
+    if (mouseYPos < (parseInt(tdScrollElm.offsetHeight)/2))
+    {
+        if (lastDecInc == -1) return true;
+
+        clearAutoScrollingContent();
+        lastDecInc = -1;
+        doScrollingContent(contentId , lastDecInc);
+        showScrollCursor(-1 , tdScrollElm)
+    }
+    else
+    {
+        if (lastDecInc == 1) return true;
+
+        clearAutoScrollingContent();
+        lastDecInc = 1;
+        doScrollingContent(contentId , lastDecInc);
+        showScrollCursor(1 , tdScrollElm)
+    }
+    return true;
+}
+
+function showScrollCursor(type , tdScrollElm)
+{
+    document.all['scrollUpCursor'].style.display = 'none';
+    document.all['scrollDownCursor'].style.display = 'none';
+
+    if (type == 1)
+    {
+        var cursorImg = document.all['scrollDownCursor'];
+        cursorImg.position = 'absolute';
+        cursorImg.style.top = 20;
+        cursorImg.style.display = "";
+        tdScrollElm.appendChild(cursorImg)
+    }
+    else
+    {
+        var cursorImg = document.all['scrollUpCursor'];
+        cursorImg.position = 'absolute';
+        cursorImg.style.top = 120;
+        cursorImg.style.display = "";
+        tdScrollElm.appendChild(cursorImg)
+    }
+}
+
+function doScrollingContent(contentId , decinc)
+{
+    var cntrElm = document.all[contentId];
+    cntrElm.scrollTop +=decinc;
+    autoScrollingTimerId = window.setTimeout("doScrollingContent(\""+contentId+"\","+decinc+")" , 20);
+}
+
+function clearAutoScrollingContent()
+{
+    if (autoScrollingTimerId != null)
+    {
+        lastDecInc = 0;
+        window.clearTimeout(autoScrollingTimerId);
+    }
+}
+
+</script>
+
+</body>
+</html>
